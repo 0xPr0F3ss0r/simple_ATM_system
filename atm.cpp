@@ -49,11 +49,9 @@ void process(double *balance) {
 }
 
 void Choice(int *choice,double *balance) {
-    //int* balance = balance;
     int deposit;
     int withdraw;
     int* userChoice = choice;
-   /* cout << "start choice  function " << *userChoice << endl;*/
     if (*userChoice == 1) {
         cout << "your balance is " << *balance << endl;
         showChoices();
